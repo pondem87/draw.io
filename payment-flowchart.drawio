@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="Page-1" id="-kLBhnD6cVZicry6wMvO">
-    <mxGraphModel dx="1354" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="926" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -220,13 +220,13 @@
         <mxCell id="PcXyaJ6zOk0AMBvOgHcU-63" value="Step 7" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="815" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PcXyaJ6zOk0AMBvOgHcU-64" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Steps&lt;/h1&gt;&lt;p&gt;1 and 2: We exchange instructions and payment details with user on their WhatsApp through WhatsApp Cloud API.&lt;/p&gt;&lt;p&gt;3. After gathering user and payment details we initiate transaction through server-to-server communication with mobile wallet provider through an API. (eliminating need for client redirect).&lt;/p&gt;&lt;p&gt;4. Mobile wallet service provider prompts client to complete transaction either through USSD Pull or USSD Push (https://www.alwaysactivemobile.co.za/ussd-push/). (In case of the USSD Pull menu route, instructions can be sent to the user in their WhatsApp inbox)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PcXyaJ6zOk0AMBvOgHcU-64" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Steps&lt;/h1&gt;&lt;p&gt;1 and 2: We exchange instructions and payment details with user on their WhatsApp through WhatsApp Cloud API.&lt;/p&gt;&lt;p&gt;3. After gathering user and payment details we initiate transaction through server-to-server communication with mobile wallet provider through an API. (eliminating need for client redirect).&lt;/p&gt;&lt;p&gt;4. Mobile wallet service provider prompts client to complete transaction either through USSD Pull or USSD Push (https://www.alwaysactivemobile.co.za/ussd-push/). (In case of the USSD Pull menu route, instructions on how to navigate to the menu can be sent to the user in their WhatsApp inbox through our server and WhatsApp Cloud API)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="37" y="550" width="405" height="235" as="geometry" />
         </mxCell>
         <mxCell id="PcXyaJ6zOk0AMBvOgHcU-65" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;5. Mobile service server/gateway communicates with our server by calling a return URL endpoint (webhook) with status updates regarding the payment.&lt;/p&gt;&lt;p&gt;6 and 7: Our server communicates payment updates with client again on their WhatsApp using WhatsApp cloud API. Client will also be updated on the subscription status and access to services modified accordingly.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="37" y="890" width="463" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="PcXyaJ6zOk0AMBvOgHcU-66" value="Document version 1.0&lt;div&gt;By Tendai Pfidze&lt;/div&gt;&lt;div&gt;(c) Pfitztronic 2024&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="PcXyaJ6zOk0AMBvOgHcU-66" value="Document version 1.1&lt;div&gt;By Tendai Pfidze&lt;/div&gt;&lt;div&gt;(c) Pfitztronic 2024&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="1003" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
